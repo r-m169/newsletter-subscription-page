@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+:root {
+    --white-smoke: #F7F5FB;
+    --grey: #908F8F;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wholePage {
+    background-color: var(--white-smoke);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    width: 854px;
+    height: 524px;
+    top: 258px;
+    left: 293px;
+
+}
+
+.imageSide {
+    flex: 1;
+    background-color: var(--white-smoke);
+    margin: 12px;
+    margin-right: 14px;
+    border-radius: 8px;
+    width: 365px;
+    height: 500px;
+    top: 270px;
+    left: 305px;
+
+}
+
+.contentSide {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 1%;
+    align-items: start;
+    width: 441px;
+    height: 500px;
+    top: 270px;
+    left: 694px;
+    border-radius: 10px;
+    border: 1px;
+
+}
+.contentSide h2 {
+    max-width: 100%;
+    width: 378.48px;
+    height: 98px;
+    top: 270px;
+    left: 694px;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* font-weight: bolder; */
+
+}
+
+.contentSide p {
+    margin-top: 10%;
+    width: 369.55px;
+    height: 48px;
+    top: 392px;
+    left: 694px;
+    color: var(--grey);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40%;
+  }
+
+@media screen and (max-width: 768px) {
+    .wholePage {
+        width: 100%;
+        /* height: 100vh; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+
+    }
+
+    .card {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        padding: 10px;
+    }
+
+    .imageSide {
+        flex: 1;
+        max-width: 100%;
+    }
+
+    .contentSide {
+        flex: 3;
+        padding: 10px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+
+    /* Styles for screens up to 480px (and also 440px) */
+    .wholePage {
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+     
+        /* background-color: var(--white-smoke); */
+    }
+
+    .card {
+        width: 90%;
+        padding: 5px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imageSide {
+        flex: 1;
+        max-width: 100%;
+    }
+
+    .contentSide {
+        flex: 3;
+        padding: 5px;
+    }
+    .contentSide h2 , .contentSide p{
+        margin-left: 6%;
+    }
+    .formContainer{
+        width: 70%;
+        margin: 15px;
+        /* padding: 15px; */
+        /* margin-right: 187px; */
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .wholePage {
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* background-color: var(--white-smoke); */
+        background-color: white;
+
+    }
+
+    .card {
+        width: 100%;
+        padding: 5px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imageSide {
+        flex: 1;
+        max-width: 100%;
+    }
+
+    .contentSide {
+        flex: 3;
+        padding: 5px;
+    }
+    .contentSide h2 , .contentSide p{
+        margin-left: 6%;
+    }
+}
+@media screen and (max-width: 360px) {
+    .wholePage {
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* background-color: var(--white-smoke); */
+        background-color: white;
+
+    }
+
+    .card {
+        width: 100%;
+        padding: 5px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .imageSide {
+        flex: 1;
+        max-width: 100%;
+    }
+
+    .contentSide {
+        flex: 3;
+        padding: 5px;
+    }
+    .contentSide h2 , .contentSide p{
+        padding: 15px;
+    }
+    .formContainer{
+        padding: 15px;
+        /* margin-top: 12%; */
+        align-items: center;
+        justify-content: center;
+    }
+}
