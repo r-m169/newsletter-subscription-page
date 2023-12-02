@@ -123,6 +123,9 @@
     .contentSide {
         flex: 3;
         padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -157,6 +160,8 @@
     .contentSide {
         flex: 3;
         padding: 5px;
+        align-items: center;
+        justify-content: center;
     }
     .contentSide h2 , .contentSide p{
         margin-left: 6%;
@@ -197,6 +202,8 @@
     .contentSide {
         flex: 3;
         padding: 5px;
+        align-items: center;
+        justify-content: center;
     }
     .contentSide h2 , .contentSide p{
         margin-left: 6%;
@@ -230,6 +237,8 @@
     .contentSide {
         flex: 3;
         padding: 5px;
+        align-items: center;
+        justify-content: center; 
     }
     .contentSide h2 , .contentSide p{
         padding: 15px;

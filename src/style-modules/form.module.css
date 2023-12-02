@@ -22,6 +22,8 @@
     left: 694px;
     border-radius: 10px;
     border: 1px solid grey;
+    justify-content: center;
+    align-items: center;
 }
 
 .formPart input::placeholder{
@@ -42,6 +44,9 @@
     line-height: 24px;
     letter-spacing: 0em;
     text-align: center;
+    justify-content: center;
+    /* justify-content: center; */
+    align-items: center;
 
 }
 @media screen and (max-width: 360px) {
@@ -50,6 +55,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+       
     }
     .formPart input {
         width: 100%;
